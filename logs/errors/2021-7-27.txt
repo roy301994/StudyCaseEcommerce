@@ -1,0 +1,34 @@
+
+Fri Aug 27 2021 20:04:37 GMT+0700 (Indochina Time) | method: POST | uri: /users/register | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: ReferenceError: t is not defined
+    at register (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:24:10)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at validasiAppKey (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/appKey.js:18:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Fri Aug 27 2021 20:42:23 GMT+0700 (Indochina Time) | method: POST | uri: /users/register | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:4:33)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+Fri Aug 27 2021 20:50:00 GMT+0700 (Indochina Time) | method: POST | uri: /users/register | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: anda salah masukkan value
+    at register (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:31:10)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at validasiAppKey (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/appKey.js:18:21)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)

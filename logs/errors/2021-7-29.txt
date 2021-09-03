@@ -1,0 +1,43 @@
+
+Sun Aug 29 2021 20:26:50 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:28:59 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:00 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:01 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:02 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:03 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:04 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:05 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:05 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:29:06 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:30:04 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:37:02 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:53:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:49:07 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeValidationError: notNull Violation: users.username cannot be null
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:56:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Sun Aug 29 2021 20:54:31 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:66:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

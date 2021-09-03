@@ -1,0 +1,4 @@
+
+Fri Sep 03 2021 20:35:33 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy45","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"sdadasd","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:71:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
