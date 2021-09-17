@@ -1,0 +1,12 @@
+dwh data warehouse
+
+Cara log in 2 cara
+-manual
+-social media
+
+Manual need verifikasi email
+register=>need verifikasi
+
+Social media:log in via google,email sudah terverivikasi
+otomatis register
+2345qwerasdx

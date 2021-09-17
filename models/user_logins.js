@@ -22,6 +22,10 @@ module.exports = function(sequelize, DataTypes) {
     verify_email: {
       type: DataTypes.TINYINT,
       allowNull: true
+    },
+    verifytoken: {
+      type: DataTypes.STRING(255),
+      allowNull: true
     }
   }, {
     sequelize,

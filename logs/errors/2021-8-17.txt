@@ -1,0 +1,563 @@
+
+Fri Sep 17 2021 19:22:39 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo ","nickname2":"roy","username2":"rsssos222y84","email2":"roynaldosihotang@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:79:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Fri Sep 17 2021 19:33:17 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 19:33:17 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:06:02 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:06:02 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:06:12 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:06:12 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:07:01 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:09:41 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:13:31 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:13:31 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:13:57 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:13:57 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:14:27 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:16:21 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:18:18 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:19:10 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:20:13 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:21:07 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:28:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:25:31 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:30:14 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:31:24 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:31:37 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:32:51 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:33:00 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: undefined | response: undefined | env: undefined | stack: Error: TypeError: verify.save is not a function
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:128:18)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:33:00 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:19 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:19 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:22 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:22 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:23 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:23 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:24 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:24 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:24 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:24 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:25 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:25 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:27 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:38:33 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:38:33 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:39:15 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:39:16 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:39:17 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:39:25 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi | body: {} | query : {"token":"$2b$10$jB4O7KUyyGHcwXUi7lxMh.IRTzdbiq8S5WUlDGDzphrfKr1km76gi"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:118:17)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+Fri Sep 17 2021 20:39:25 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:55:42 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$meyWcSmyAM8lXaFexkVDEeOadAkIGKpPlM3eNnhNaqcgobvli1ZFa | body: {} | query : {"token":"$2b$10$meyWcSmyAM8lXaFexkVDEeOadAkIGKpPlM3eNnhNaqcgobvli1ZFa"} | status: undefined | response: undefined | env: undefined | stack: Error: ReferenceError: UserModel is not defined
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:146:18)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:55:43 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:56:53 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$meyWcSmyAM8lXaFexkVDEeOadAkIGKpPlM3eNnhNaqcgobvli1ZFa | body: {} | query : {"token":"$2b$10$meyWcSmyAM8lXaFexkVDEeOadAkIGKpPlM3eNnhNaqcgobvli1ZFa"} | status: undefined | response: undefined | env: undefined | stack: Error: ReferenceError: UserModel is not defined
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:146:18)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:56:54 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Sep 17 2021 20:58:21 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$meyWcSmyAM8lXaFexkVDEeOadAkIGKpPlM3eNnhNaqcgobvli1ZFa | body: {} | query : {"token":"$2b$10$meyWcSmyAM8lXaFexkVDEeOadAkIGKpPlM3eNnhNaqcgobvli1ZFa"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:134:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Fri Sep 17 2021 20:58:21 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)

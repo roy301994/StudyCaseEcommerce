@@ -1,0 +1,19 @@
+
+Fri Sep 10 2021 20:37:09 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"roy naldo","nickname2":"roy","username2":"roy84","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:79:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Fri Sep 10 2021 20:37:19 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"rdasdsnaldo","nickname2":"roy","username2":"roy84","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:79:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Fri Sep 10 2021 20:37:21 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"rdasdsnaldo","nickname2":"roy","username2":"roy84","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:79:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Fri Sep 10 2021 20:38:04 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"rdasdsnaldo","nickname2":"roy","username2":"roy84","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: ReferenceError: userLogin is not defined
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:79:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Fri Sep 10 2021 20:38:07 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"rdasdsnaldo","nickname2":"roy","username2":"roy84","email2":"roy@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error: ReferenceError: userLogin is not defined
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:79:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Fri Sep 10 2021 20:39:56 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"rdasdsnald2o","nickname2":"roy","username2":"roy84","email2":"roynaldosihotang@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"percobaab","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (C:\Users\roynah\Desktop\StudyCase\controllers\UserController.js:79:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

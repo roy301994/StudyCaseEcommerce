@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var bodyParser = require('body-parser')
 var app = express();
+var {verify}=require('./controllers/UserController')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
+app.use('/verify',verify)
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
@@ -65,7 +66,7 @@ app.use(function(error, req, res, next) {
 
   // console.log('ERROR', err)
   
-  res.status(req._status);
+  res.status(500);
   res.json({
     
     error:req._error,
