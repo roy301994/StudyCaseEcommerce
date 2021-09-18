@@ -57,7 +57,7 @@ class UserController {
           "http://localhost:8083/verify?token=" + token
         );
 
-        console.log(`"http://localhost:8082/verify?token=${token}`);
+        console.log(`"http://localhost:8083/verify?token=${token}`);
       }
 
       req._data = { users, userLogin };

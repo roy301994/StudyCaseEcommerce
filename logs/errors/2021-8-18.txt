@@ -244,3 +244,12 @@ Sat Sep 18 2021 15:32:36 GMT+0700 (Indochina Time) | method: GET | uri: /verify?
     at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
     at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:124:9)
     at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sat Sep 18 2021 15:52:11 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$6mFcRY/3g4qurMQ4lIiypuZAihDEyX3RtMHjNlB1s2vaWw8keYpjS | body: {} | query : {"token":"$2b$10$6mFcRY/3g4qurMQ4lIiypuZAihDEyX3RtMHjNlB1s2vaWw8keYpjS"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:124:9)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
