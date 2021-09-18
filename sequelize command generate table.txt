@@ -1,1 +1,0 @@
-sequelize-auto -h localhost  -d ecommerce  -u root  -p 3306  --dialect mysql -o models -t roles

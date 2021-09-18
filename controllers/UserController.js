@@ -82,17 +82,12 @@ class UserController {
        
     }
 
-
+ 
 
     verify=async(req,res,next)=> {
-
-
-
         // console.log("token",req.query)
         // res.json({data:[]},200)
         try {
-
-
             const token=req.query.token
             // console.log(req.query)
             var verify= await UserLoginModel.findOne({
@@ -109,15 +104,13 @@ class UserController {
             
             // verify={"username":"yu4",
             //         "password":"sdads"}
-
-
             if (verify){
                 
                 var update=await UsersModel.update({
                     status:1
                 },{
                     where:{
-                        username:verify.username
+                        username:verify.username //login dan user login memiliki for and key user name sehingga verify.username
                     }
                 })
 

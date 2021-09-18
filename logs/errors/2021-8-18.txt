@@ -1,0 +1,53 @@
+
+Sat Sep 18 2021 08:28:02 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G | body: {} | query : {"token":"$2b$10$jAbGvSi7brW1dmqw1Vu1YufES.RBFg3nfhPJQG59CCGeAnRdTCF2G"} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Email is not valid
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:147:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sat Sep 18 2021 08:28:56 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$wsGWV7Nqpa3AWVpC2uU7.uHemCDmBKUS4QEoHJwJh03U6rQeJT5VG | body: {} | query : {"token":"$2b$10$wsGWV7Nqpa3AWVpC2uU7.uHemCDmBKUS4QEoHJwJh03U6rQeJT5VG"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:135:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sat Sep 18 2021 08:28:56 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Sat Sep 18 2021 08:29:14 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$wsGWV7Nqpa3AWVpC2uU7.uHemCDmBKUS4QEoHJwJh03U6rQeJT5VG | body: {} | query : {"token":"$2b$10$wsGWV7Nqpa3AWVpC2uU7.uHemCDmBKUS4QEoHJwJh03U6rQeJT5VG"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:135:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sat Sep 18 2021 11:05:36 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$F4k3VcqTQ/upOPxDWEzoB.fnrXCwQUrLGRDlqd3LIqjOSIELi.D4i | body: {} | query : {"token":"$2b$10$F4k3VcqTQ/upOPxDWEzoB.fnrXCwQUrLGRDlqd3LIqjOSIELi.D4i"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:128:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sat Sep 18 2021 11:05:36 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
