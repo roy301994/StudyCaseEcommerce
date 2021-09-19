@@ -1,11 +1,14 @@
 const responeHandler = async (req, res, next) => {
   try {
-    res.status(req._status).json({
+    var response={
       error: req._error,
       data: req._data,
-      custom: req._custom,
       message: req._message,
-    });
+    }
+     if(req._custom){
+       response={...response,...req._custom}
+     }
+    res.status(req._status).json(response);
   } catch (error) {
     next(error);
   }

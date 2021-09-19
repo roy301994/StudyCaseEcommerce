@@ -1,0 +1,125 @@
+
+Sun Sep 19 2021 19:32:26 GMT+0700 (Indochina Time) | method: GET | uri: /verify?token=$2b$10$7Znxzh2DZSpllbXhSsT/Met.js0vpGgbqjrAPJwbJ5FuN3zhd4Dgq | body: {} | query : {"token":"$2b$10$7Znxzh2DZSpllbXhSsT/Met.js0vpGgbqjrAPJwbJ5FuN3zhd4Dgq"} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at verify (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:174:9)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:32:26 GMT+0700 (Indochina Time) | method: GET | uri: /favicon.ico | body: {} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:29:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Sun Sep 19 2021 19:38:04 GMT+0700 (Indochina Time) | method: POST | uri: /users/register?value=1 | body: {"namaLengkap2":"hendry ","nickname2":"hendry","username2":"Hendry","email2":"roynaldosihotang@gmail.com","nomorTelepon2":"019292","tanggalLahir2":"19942","password2":"trial1","typeLogin2":"manual"} | query : {"value":"1"} | status: undefined | response: undefined | env: undefined | stack: Error:  username is already taken
+    at register (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:106:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:42:15 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {} | query : {} | status: 400 | response: undefined | env: undefined | stack: SyntaxError: Unexpected token : in JSON at position 18
+    at JSON.parse (<anonymous>)
+    at parse (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/body-parser/lib/types/json.js:89:19)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/raw-body/index.js:224:16)
+    at done (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:388:22)
+    at endReadableNT (node:internal/streams/readable:1305:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+Sun Sep 19 2021 19:44:03 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Username is incorrect
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:36:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:44:25 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Username is incorrect
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:36:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:44:28 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Username is incorrect
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:36:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:44:29 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Username is incorrect
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:36:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:44:30 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Username is incorrect
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:36:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 19:44:56 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: Error: Username is incorrect
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:36:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Sun Sep 19 2021 20:20:43 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: TypeError: response.concat is not a function
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:8:23)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:127:14)
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:57:7)
+Sun Sep 19 2021 20:20:48 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: TypeError: response.concat is not a function
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:8:23)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:127:14)
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:57:7)
+Sun Sep 19 2021 20:42:00 GMT+0700 (Indochina Time) | method: POST | uri: /users/dummy | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:11:29)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+Sun Sep 19 2021 20:42:14 GMT+0700 (Indochina Time) | method: POST | uri: /users/dummyauth | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:11:29)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+Sun Sep 19 2021 20:42:19 GMT+0700 (Indochina Time) | method: POST | uri: /users/dummyAuth | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:11:29)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+Sun Sep 19 2021 20:42:41 GMT+0700 (Indochina Time) | method: POST | uri: /users/dummyAuth | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:11:29)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+Sun Sep 19 2021 20:42:45 GMT+0700 (Indochina Time) | method: POST | uri: /users/dummyAuth | body: {"username":"Hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:11:29)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)

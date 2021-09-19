@@ -3,10 +3,77 @@ const { UsersModel } = require("../models");
 const { UserLoginModel } = require("../models");
 const bcrypt = require("bcrypt");
 const { sendEmail } = require("../config/mailerconfig");
+const jwt = require('jsonwebtoken');
+ 
 
 const appkeyModel = require("../models/index.js").appkeyModel;
 
 class UserController {
+  dummyAuth =async (req, res, next) => {
+
+
+                req._status = 200;
+                req._error = false;
+                req._message = "user berhasil login";
+                next ()
+  }
+
+
+
+  login = async (req, res, next) => {
+    try {
+      var username = req.body.username;
+      var password = req.body.password;
+      var typeLogin = req.body.typeLogin;
+
+      var userLogin = await UserLoginModel.findOne({
+        where: {
+          username,
+          typeLogin,
+          
+        },
+      });
+      if (userLogin) {
+        if (userLogin.verify_email==1){
+              var compare = await bcrypt.compare(password, userLogin.password);
+              // req._data = { users, userLogin };
+              if (compare) {
+                const token = jwt.sign({ username: userLogin.username }, "trialJWT");
+                req._status = 200;
+                req._error = false;
+                req._message = "user berhasil login";
+                req._custom={token};
+              }
+               
+              else {
+                req._data = req.body;
+                req._status = 401;
+                req._error = true;
+                req._message = "username is incorrect";
+              }
+              
+        }else{ 
+          req._data = req.body;
+          req._status = 401;
+          req._error = true;
+          req._message = "need verify email";
+        }
+      } else {
+        // throw new Error("Username is incorrec");
+        req._data = req.body;
+        req._status = 401;
+        req._error = true;
+        req._message = "username is incorrect";
+      }
+      next();
+    } catch (error) {
+      req._status = 501;
+      req._error = true;
+      req._message = error;
+      next(new Error(error));
+    }
+  };
+
   register = async (req, res, next) => {
     //yg dikiri obejct di database ,sebelah kanan object inputan dari postman
     const t = await sequelize.transaction();

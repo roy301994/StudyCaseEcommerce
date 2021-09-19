@@ -4,9 +4,12 @@ var sequelize = require("../config/dbconnection");
 const UserController = require("../controllers/UserController");
 const appkeyMiddleware = require("../middleware/appKey");
 const responeMiddleware = require("../middleware/respone");
+const AuthMiddleware = require("../middleware/authentikasi");
 
 router.use(appkeyMiddleware);
 router.post("/register", UserController.register);
+router.post("/login", UserController.login)
+router.get("/dummyAuth",AuthMiddleware,UserController.dummyAuth);
 router.use(responeMiddleware);
 
 /* GET users listing. */
