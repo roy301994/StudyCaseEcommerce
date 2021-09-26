@@ -17,7 +17,7 @@ class UserController {
                 req._message = "user berhasil login";
                 next ()
   }
-
+  
 
 
   login = async (req, res, next) => {
@@ -38,7 +38,7 @@ class UserController {
               var compare = await bcrypt.compare(password, userLogin.password);
               // req._data = { users, userLogin };
               if (compare) {
-                const token = jwt.sign({ username: userLogin.username }, "trialJWT");
+                const token = jwt.sign({ username: userLogin.username }, "trialJWT" ,{ expiresIn: '20h'});
                 req._status = 200;
                 req._error = false;
                 req._message = "user berhasil login";

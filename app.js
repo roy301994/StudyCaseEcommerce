@@ -7,6 +7,7 @@ require("dotenv").config();
 var fs = require("fs");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
+var categoryRouter = require("./routes/category");
 var bodyParser = require("body-parser");
 var app = express();
 var { verify } = require("./controllers/UserController");
@@ -20,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
-
+app.use("/category", categoryRouter);
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/verify", verify);

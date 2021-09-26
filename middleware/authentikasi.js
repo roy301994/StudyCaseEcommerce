@@ -2,16 +2,19 @@ const jwt = require('jsonwebtoken');
 
 const validasiToken = async (req, res, next) => {
   var check = false;
-  //
-  if (req.headers.hasOwnProperty("token")) {
+  
+
+  // console.log(req.headers);
+  if (req.headers.hasOwnProperty("authorization")) {
     // check=true
-    var TokenUser = req.headers.token;
+    var TokenUser = req.headers.authorization;
+    var Token=TokenUser.split(" ")
     // req._custom = {TokenUser}
     // next()
 
 
 
-jwt.verify(TokenUser, 'trialJWT',(error,decoded)=>{
+jwt.verify(Token[1], 'trialJWT',(error,decoded)=>{
         if(error){
             res.status(401).json({
                 error: true,

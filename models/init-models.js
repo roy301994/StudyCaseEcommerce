@@ -1,11 +1,12 @@
 var DataTypes = require("sequelize").DataTypes;
-var _app_key = require("./app_key");
+var _category = require("./category");
 
 function initModels(sequelize) {
-  var app_key = _app_key(sequelize, DataTypes);
+  var category = _category(sequelize, DataTypes);
+
 
   return {
-    app_key,
+    category,
   };
 }
 module.exports = initModels;

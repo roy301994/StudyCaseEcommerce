@@ -1,7 +1,7 @@
 const sequelize = require("../config/dbconnection");
 const Sequelize = require("sequelize");
 var DataTypes = Sequelize.DataTypes;
-
+const CategoryModel=require ("./category")(sequelize, DataTypes);//parameter wajib declarasi model baru
 const UsersModel = require("./users")(sequelize, DataTypes);
 const UserRolesModel = require("./user_roles")(sequelize, DataTypes);
 const UserLoginModel = require("./user_logins")(sequelize, DataTypes);
@@ -46,4 +46,5 @@ module.exports = {
   UserAlamatModel,
   RolesModel,
   appkeyModel,
+  CategoryModel
 };
