@@ -1,6 +1,6 @@
 const sequelize = require("../config/dbconnection");
 const { UsersModel } = require("../models");
-const { UserLoginModel } = require("../models");
+const { UserLoginModel,UserRolesModel } = require("../models");
 const bcrypt = require("bcrypt");
 const { sendEmail } = require("../config/mailerconfig");
 const jwt = require('jsonwebtoken');
@@ -26,24 +26,42 @@ class UserController {
       var password = req.body.password;
       var typeLogin = req.body.typeLogin;
 
-      var userLogin = await UserLoginModel.findOne({
-        where: {
+      var userLogin = await UserLoginModel.findOne({//user login ada data username yg jadi irisan untuk tabel users
+        where: {//userLoginModel join Users tabel dengean username lalu dpt id dari users tabel ,lalu dari id tersebut didaftarkan dengan role id,menentukan roles id hardcode
           username,
           typeLogin,
           
         },
+        include:[{
+          model:UsersModel,
+          required:true, //inner join  //false itu left join
+        }],
+        
+
       });
       if (userLogin) {
         if (userLogin.verify_email==1){
               var compare = await bcrypt.compare(password, userLogin.password);
               // req._data = { users, userLogin };
+              
               if (compare) {
-                const token = jwt.sign({ username: userLogin.username }, "trialJWT" ,{ expiresIn: '20h'});
+
+                const getRole=await UserRolesModel.findAll({
+                  attributes:["role_id"],
+                  where :{
+                    user_id:userLogin.user.id
+                  }
+                })
+
+
+                const token = jwt.sign({ username: userLogin.username,roles:getRole }, "trialJWT" ,{ expiresIn: '20h'});
+                // req._data=userLogin //gabungan dari 2 tabel
                 req._status = 200;
                 req._error = false;
                 req._message = "user berhasil login";
                 req._custom={token};
               }
+
                
               else {
                 req._data = req.body;

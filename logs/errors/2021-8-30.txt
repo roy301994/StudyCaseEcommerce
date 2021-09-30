@@ -70,3 +70,38 @@ Thu Sep 30 2021 06:30:57 GMT+0700 (Indochina Time) | method: GET | uri: /categor
     at validasiToken (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/authentikasi.js:17:5)
     at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
     at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/route.js:137:13)
+Thu Sep 30 2021 19:25:07 GMT+0700 (Indochina Time) | method: DELETE | uri: /category/11 | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: SequelizeDatabaseError: Unknown column 'category.ids' in 'where clause'
+    at Query.formatError (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/dialects/mysql/query.js:265:16)
+    at Query.run (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/dialects/mysql/query.js:77:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/dialects/abstract/query-interface.js:953:12)
+    at async Function.findAll (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/model.js:1917:12)
+    at async DeleteCategory (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CategoryController.js:73:22)
+Thu Sep 30 2021 19:26:08 GMT+0700 (Indochina Time) | method: DELETE | uri: /category/11 | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: SequelizeDatabaseError: Unknown column 'category.ids' in 'where clause'
+    at Query.formatError (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/dialects/mysql/query.js:265:16)
+    at Query.run (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/dialects/mysql/query.js:77:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/dialects/abstract/query-interface.js:953:12)
+    at async Function.findAll (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/sequelize/lib/model.js:1917:12)
+    at async DeleteCategory (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CategoryController.js:73:22)
+Thu Sep 30 2021 19:26:38 GMT+0700 (Indochina Time) | method: DELETE | uri: /category/11 | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'category.ids' in 'where clause'
+    at DeleteCategory (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CategoryController.js:97:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Thu Sep 30 2021 19:27:03 GMT+0700 (Indochina Time) | method: DELETE | uri: /category/11 | body: {} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'category.ids' in 'where clause'
+    at DeleteCategory (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CategoryController.js:97:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Thu Sep 30 2021 19:48:32 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: TypeError: UserRolesModel.find is not a function
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:89:12)
+Thu Sep 30 2021 19:51:58 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'user.role_id' in 'field list'
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:90:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Thu Sep 30 2021 19:53:14 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'user_logins.role_id' in 'field list'
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:91:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Thu Sep 30 2021 19:53:17 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"hendry2","password":"trial1","typeLogin":"manual"} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'user_logins.role_id' in 'field list'
+    at login (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/UserController.js:91:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)

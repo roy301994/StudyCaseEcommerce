@@ -91,7 +91,7 @@ class CategoryController {
       }
       next();
     } catch (error) {
-      req._status = 501;
+      req._status = 504;
       req._error = true;
       req._message = error;
       next(new Error(error));

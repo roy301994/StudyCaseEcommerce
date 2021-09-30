@@ -83,7 +83,7 @@ app.use(function (error, req, res, next) {
 
   // console.log('ERROR', err)
 
-  res.status(500);
+  res.status(req._status);
   res.json({
     error: req._error,
     data: [],

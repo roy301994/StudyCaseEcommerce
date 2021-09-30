@@ -7,6 +7,7 @@ const responeMiddleware = require("../middleware/respone");
 const AuthMiddleware = require("../middleware/authentikasi");
 
 router.use(appkeyMiddleware);
+// router.post("/checkout",AuthMiddleware.validasiToken2([4]),UserController.dummyAuth)
 router.post("/register", UserController.register);
 router.post("/login", UserController.login)
 router.get("/dummyAuth",AuthMiddleware,UserController.dummyAuth);
