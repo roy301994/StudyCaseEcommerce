@@ -9,6 +9,7 @@ const responeHandler = async (req, res, next) => {
        response={...response,...req._custom}
      }
     res.status(req._status).json(response);
+    next()
   } catch (error) {
     next(error);
   }

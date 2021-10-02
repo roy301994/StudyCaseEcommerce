@@ -9,8 +9,9 @@ const AuthMiddleware = require("../middleware/authentikasi");
 router.use(appkeyMiddleware);
 // router.post("/checkout",AuthMiddleware.validasiToken2([4]),UserController.dummyAuth)
 router.post("/register", UserController.register);
-router.post("/login", UserController.login)
-router.get("/dummyAuth",AuthMiddleware,UserController.dummyAuth);
+router.post("/login", UserController.login);
+router.get("/dummyAuth", AuthMiddleware([1,4]), UserController.dummyAuth);//super admin ekslusif
+// router.get("/dummyAuth", AuthMiddleware([1,2]), UserController.dummyAuth)
 router.use(responeMiddleware);
 
 /* GET users listing. */

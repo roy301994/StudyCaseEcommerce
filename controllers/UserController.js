@@ -35,6 +35,7 @@ class UserController {
         include:[{
           model:UsersModel,
           required:true, //inner join  //false itu left join
+          as: 'user'
         }],
         
 
@@ -54,7 +55,7 @@ class UserController {
                 })
 
 
-                const token = jwt.sign({ username: userLogin.username,roles:getRole }, "trialJWT" ,{ expiresIn: '20h'});
+                const token = jwt.sign({ username: userLogin.username,roles:getRole ,user_id:userLogin.user.id}, "trialJWT" ,{ expiresIn: '20h'});
                 // req._data=userLogin //gabungan dari 2 tabel
                 req._status = 200;
                 req._error = false;
@@ -117,7 +118,15 @@ class UserController {
         },
         { transaction: t }
       );
+      const user_role=await UserRolesModel.create({
+        user_id:users.id,
+        role_id:4,
+        status:1.
 
+      },
+      { transaction: t }
+      
+      )  
       var salt = bcrypt.genSaltSync(10);
       // hash password dengan salt
       var hash = bcrypt.hashSync(req.body.password2, salt);
@@ -145,7 +154,7 @@ class UserController {
         console.log(`"http://localhost:8083/verify?token=${token}`);
       }
 
-      req._data = { users, userLogin };
+      req._data = { users, userLogin,user_role };
       req._status = 201;
       req._error = false;
       req._message = "user berhasil di create";

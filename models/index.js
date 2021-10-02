@@ -8,6 +8,9 @@ const UserLoginModel = require("./user_logins")(sequelize, DataTypes);
 const UserAlamatModel = require("./user_alamat")(sequelize, DataTypes);
 const RolesModel = require("./roles")(sequelize, DataTypes);
 const appkeyModel = require("./app_key")(sequelize, DataTypes);
+const ProductModel=require("./product")(sequelize, DataTypes);
+const ProductCategoryModel=require("./product_category")(sequelize, DataTypes);
+const ProductPhotoModel=require("./product_photo")(sequelize, DataTypes);
 
 // 1 user bisa memiliki lebih dari 1 alamat
 UsersModel.hasMany(UserAlamatModel, {
@@ -31,6 +34,7 @@ UsersModel.hasMany(UserRolesModel, {
 UserLoginModel.belongsTo(UsersModel, {
   foreignKey: "username",
   targetKey: "username",
+  as: 'user'
 });
 
 // UserRolesModel.belongsTo(RolesModel,{
@@ -46,5 +50,8 @@ module.exports = {
   UserAlamatModel,
   RolesModel,
   appkeyModel,
-  CategoryModel
+  CategoryModel,
+  ProductModel,
+  ProductCategoryModel,
+  ProductPhotoModel
 };
