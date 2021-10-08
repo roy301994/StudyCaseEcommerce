@@ -1,5 +1,6 @@
 const sequelize = require("../config/dbconnection");
 const Sequelize = require("sequelize");
+const product_category = require("./product_category");
 var DataTypes = Sequelize.DataTypes;
 const CategoryModel=require ("./category")(sequelize, DataTypes);//parameter wajib declarasi model baru
 const UsersModel = require("./users")(sequelize, DataTypes);
@@ -11,6 +12,7 @@ const appkeyModel = require("./app_key")(sequelize, DataTypes);
 const ProductModel=require("./product")(sequelize, DataTypes);
 const ProductCategoryModel=require("./product_category")(sequelize, DataTypes);
 const ProductPhotoModel=require("./product_photo")(sequelize, DataTypes);
+const CartModel=require("./cart")(sequelize, DataTypes);
 
 // 1 user bisa memiliki lebih dari 1 alamat
 UsersModel.hasMany(UserAlamatModel, {
@@ -37,6 +39,23 @@ UserLoginModel.belongsTo(UsersModel, {
   as: 'user'
 });
 
+CartModel.belongsTo(ProductModel,{
+  foreignKey:"product_id",
+  targetKey:"id",
+  as:'product'
+})
+
+ProductModel.hasMany(ProductCategoryModel,{
+  foreignKey:"id_product",
+  targetKey:"id",
+  as:'productcategory'
+})
+
+ProductCategoryModel.belongsTo(CategoryModel,{
+  foreignKey:"category",
+  targetKey:"id",
+  as:'categories'
+})
 // UserRolesModel.belongsTo(RolesModel,{
 //     foreignKey: 'id',
 //     targetKey: 'role_id'
@@ -53,5 +72,6 @@ module.exports = {
   CategoryModel,
   ProductModel,
   ProductCategoryModel,
-  ProductPhotoModel
+  ProductPhotoModel,
+  CartModel
 };

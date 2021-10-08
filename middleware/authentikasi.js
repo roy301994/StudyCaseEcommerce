@@ -1,7 +1,4 @@
 const jwt = require("jsonwebtoken");
-
-
-
 //validasi token dan validasi role
 function inArray(needle, haystack) {
   var length = haystack.length;
@@ -11,9 +8,6 @@ function inArray(needle, haystack) {
   }
   return false;
 }
-//  const a ={ nama:RemotePlayback,kls:2}
-//  a.nama
-
 module.exports=function(roles){
   return function(req,res,next){
     var check = false;  

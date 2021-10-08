@@ -27,7 +27,9 @@ class UserController {
       var typeLogin = req.body.typeLogin;
 
       var userLogin = await UserLoginModel.findOne({//user login ada data username yg jadi irisan untuk tabel users
-        where: {//userLoginModel join Users tabel dengean username lalu dpt id dari users tabel ,lalu dari id tersebut didaftarkan dengan role id,menentukan roles id hardcode
+        //userLoginModel join Users tabel dengean username lalu dpt id dari users tabel ,
+        //lalu dari id tersebut didaftarkan dengan role id,menentukan roles id hardcode
+        where: {
           username,
           typeLogin,
           

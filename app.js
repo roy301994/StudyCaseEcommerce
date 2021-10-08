@@ -9,6 +9,7 @@ var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var categoryRouter = require("./routes/category");
 var categoryProduct=require("./routes/product")
+var cart=require("./routes/cart")
 var bodyParser = require("body-parser");
 var app = express();
 var { verify } = require("./controllers/UserController");
@@ -24,6 +25,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/product", categoryProduct)
 app.use("/category", categoryRouter);
+app.use("/cart",cart)
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/verify", verify);

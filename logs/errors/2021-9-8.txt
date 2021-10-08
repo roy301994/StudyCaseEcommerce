@@ -1,0 +1,129 @@
+
+Fri Oct 08 2021 19:18:04 GMT+0700 (Indochina Time) | method: POST | uri: /users/login | body: {"username":"Gensin","password":"trial1","typeLogin":"manual"} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:32:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at Immediate.next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15)
+    at processImmediate (node:internal/timers:465:21)
+Fri Oct 08 2021 19:19:17 GMT+0700 (Indochina Time) | method: POST | uri: /product | body: {"nama":"Iphone","harga":75000,"deskripsi":"alat komunikasi","stock":320,"categories":[3,5,6,15]} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:32:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 19:24:36 GMT+0700 (Indochina Time) | method: POST | uri: /product | body: {"nama":"Iphone","harga":75000,"deskripsi":"alat komunikasi","stock":320,"categories":[3,5,6,15]} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:32:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 20:01:24 GMT+0700 (Indochina Time) | method: GET | uri: /cart | body: {"product_id":[24,26],"quantity":2} | query : {} | status: undefined | response: undefined | env: undefined | stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:278:15)
+    at ServerResponse.writeHead (node:_http_server:268:11)
+    at ServerResponse.writeHead (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:259:8)
+    at write_ (node:_http_outgoing:736:9)
+    at ServerResponse.end (node:_http_outgoing:824:5)
+    at ServerResponse.send (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/response.js:267:15)
+    at responeHandler (/mnt/c/Users/roynah/Desktop/StudyCase/middleware/respone.js:11:29)
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+Fri Oct 08 2021 20:08:23 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":[24,26],"quantity":2} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 20:28:01 GMT+0700 (Indochina Time) | method: PUT | uri: /cart/1 | body: {"product_id":24,"quantity":"17"} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 20:29:48 GMT+0700 (Indochina Time) | method: PUT | uri: /cart/1 | body: {"quantity":"4"} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 21:08:10 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":[24,26],"quantity":2} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'product_category.product_id' in 'where clause'
+    at createCart (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CartController.js:43:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Fri Oct 08 2021 21:11:11 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":24,"quantity":2} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeDatabaseError: Unknown column 'product_category.product_id' in 'where clause'
+    at createCart (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CartController.js:43:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Fri Oct 08 2021 21:11:59 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":24,"quantity":2} | query : {} | status: undefined | response: undefined | env: undefined | stack: Error: SequelizeEagerLoadingError: product is associated to cart using an alias. You must use the 'as' keyword to specify the alias within your include statement.
+    at createCart (/mnt/c/Users/roynah/Desktop/StudyCase/controllers/CartController.js:43:12)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+Fri Oct 08 2021 21:13:16 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":24,"quantity":2} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 21:14:08 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":24,"quantity":2} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 21:43:17 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":26,"quantity":4} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
+Fri Oct 08 2021 21:43:47 GMT+0700 (Indochina Time) | method: POST | uri: /cart | body: {"product_id":19,"quantity":5} | query : {} | status: 404 | response: undefined | env: undefined | stack: NotFoundError: Not Found
+    at /mnt/c/Users/roynah/Desktop/StudyCase/app.js:34:8
+    at Layer.handle [as handle_request] (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:317:13)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:275:10)
+    at /mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:635:15
+    at next (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:174:3)
+    at router (/mnt/c/Users/roynah/Desktop/StudyCase/node_modules/express/lib/router/index.js:47:12)
