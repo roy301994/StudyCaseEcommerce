@@ -4,37 +4,68 @@ const { CartModel,ProductModel, ProductCategoryModel, CategoryModel } = require(
 class CartController {
   createCart = async (req, res, next) => {
     try {
-      var category=await ProductCategoryModel.findOne({
-          where :{
-              id_product:req.body.product_id
-          }
-      })  
+      
+        var product_id= req.body.product_id
+        var user_id=req._user_id
+
+        const verify = await CartModel.findOne({
+            where:{
+                product_id,
+                user_id
+            }
+        })
+
+        if (verify) {
+            const CartKosong= await CartModel.update({
+                quantity:verify.quantity+1
+            },{
+                where:{
+                    product_id,
+                    user_id
+                }
+            })
+
+
+
+        }else {
+
+
+
       const Cart = await CartModel.create({
         user_id:req._user_id,
         product_id:req.body.product_id,
         quantity:req.body.quantity,
+        
       });
-      const getCart=await CartModel.findAll({
-          where:{
-              user_id:req._user_id
-          }
-          ,include:[{
-              model:ProductModel,
-              required:true,
-              as :"product",
-              include:[{
-                model:ProductCategoryModel,
-                required:true,
-                as :"productcategory",
-                include:[{
-                    model:CategoryModel,
-                    required:true,
-                    as :"categories",
-                  }]
-              }]
-            }]
-    })
-      req._data = getCart;
+    }
+    //   const getCart=await CartModel.findAll({
+    //     // attributes:[],  
+    //     where:{
+    //           id:Cart.id
+    //         //   user_id:req._user_id,
+    //         //   product_id:req.body.product_id
+    //       }
+    //       ,include:[{
+    //           model:ProductModel,
+    //           required:true,
+    //         //   attributes:[],
+    //           as :"product",
+    //           include:[{
+    //             model:ProductCategoryModel,
+    //             required:true,
+    //             // attributes:[],
+    //             as :"productcategory",
+    //             include:[{
+    //                 model:CategoryModel,
+    //                 required:true,
+    //                 as :"categories",
+    //                 attributes:["category"]
+    //               }]
+    //           }]
+    //         }]
+    // })
+    
+      req._data = [];
       req._status = 201;
       req._error = false;
       req._message = "Cart berhasil di create";
@@ -91,7 +122,7 @@ class CartController {
             next(new Error(error))
         }
 
-
+        
 
 
 
@@ -99,6 +130,43 @@ class CartController {
 
 
     }
+
+
+    DeleteCart = async (req,res,next)=>{
+
+        try {
+
+            const verify = await CartModel.findOne({
+                where:{
+                    id:req.params.id
+                }
+            })
+            if (verify){
+                await CartModel.destroy({
+                    where:{
+                        id:req.params.id
+                    }
+                })
+                req._status = 201;
+                req._error = false;
+                req._message = "data has been deleted";
+            }else {
+            
+            req._status = 501;
+            req._error = true;
+            req._message = "data not found";
+            }
+            next()
+        } catch (error) {
+            req._status = 501;
+            req._error = true;
+            req._message = error;
+            next(new Error(error))
+        }
+       
+    }
+    
+    
 }
 
 

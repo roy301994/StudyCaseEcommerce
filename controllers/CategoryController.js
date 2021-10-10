@@ -43,11 +43,11 @@ class CategoryController {
         const Category = await CategoryModel.update(
           {
             category: category,
-            status: status,
+            status: status,   //input dari body
             parent_id: parentID,
           },
           {
-            where: { id: req.params.id },
+            where: { id: req.params.id }, //input dari url params
           }
         );
         // req._data = Category;

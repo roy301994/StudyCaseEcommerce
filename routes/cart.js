@@ -10,7 +10,7 @@ const CategoryController = require("../controllers/CategoryController");
 router.use(appkeyMiddleware);
 router.post("/", AuthMiddleware([3,4]),CartController.createCart);
 router.put("/:id", AuthMiddleware([3]), CartController.UpdateCart);
-// router.delete("/:id", AuthMiddleware([3]), CartController.DeleteCategory);
+router.delete("/:id", AuthMiddleware([3]), CartController.DeleteCart);
 // router.get("/", AuthMiddleware([3]), CartController.FindAllCategory);
 // router.get("/:id", AuthMiddleware([3]), CartController.FindOneCategory);
 router.use(responeMiddleware);
